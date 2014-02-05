@@ -1,0 +1,19 @@
+*.swp
+.DS_Store
+.CFUserTextEncoding
+.Trash/
+.account
+.bash_history
+.cups/
+.lesshst
+.ssh/
+Applications/
+Applications (Parallels)/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
