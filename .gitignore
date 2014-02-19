@@ -8,6 +8,10 @@
 .lesshst
 .ssh/
 .viminfo
+.vim/_backup
+.vim/_tmp
+.m2/
+.cache/
 Applications/
 Applications (Parallels)/
 Desktop/
