@@ -3,10 +3,11 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-""" let Vundle manage Vundle
+""" let vundle manage vundle
 Bundle 'gmarik/vundle'
 
 """ vundles
+Bundle 'tomasr/molokai'
 Bundle 'tpope/vim-sensible.git'
 Bundle 'kien/ctrlp.vim'
 Bundle 'timchen/vim-numbertoggle'
@@ -24,7 +25,7 @@ syntax enable         " Turn on syntax highlighting allowing local overrides
 set background=dark
 let g:solarized_contrast = "high"
 let g:solarized_visibility = "normal"
-colorscheme solarized
+colorscheme molokai
 
 """ basic stuff
 set number            " Show line numbers
@@ -147,6 +148,6 @@ set splitright
 
 """ auto re-load vimrc
 augroup myvimrchooks
-    au!
-    autocmd bufwritepost .vimrc source ~/.vimrc
+  au!
+  autocmd bufwritepost .vimrc source ~/.vimrc
 augroup END
