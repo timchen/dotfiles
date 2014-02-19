@@ -9,7 +9,7 @@ Bundle 'gmarik/vundle'
 """ vundles
 Bundle 'tpope/vim-sensible.git'
 Bundle 'kien/ctrlp.vim'
-
+Bundle 'timchen/vim-numbertoggle'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'tpope/vim-bundler'
