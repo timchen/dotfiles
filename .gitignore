@@ -10,8 +10,6 @@
 .viminfo
 .vim/_backup
 .vim/_tmp
-!.vim/bundle/vundle
-.vim/bundle/*
 .m2/
 .cache/
 Applications/
