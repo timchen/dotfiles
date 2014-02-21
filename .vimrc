@@ -25,7 +25,7 @@ syntax enable         " Turn on syntax highlighting allowing local overrides
 set background=dark
 let g:solarized_contrast = "high"
 let g:solarized_visibility = "normal"
-colorscheme molokai
+colorscheme solarized
 
 """ basic stuff
 set number            " Show line numbers
